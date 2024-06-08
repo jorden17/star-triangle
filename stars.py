@@ -10,7 +10,7 @@ def pyramid_triangle(height):
     for i in range(1, height + 1):
         print(' ' * (height - i) + '* ' * i)
 
-# Example usage:
+
 print("Lower Triangle:")
 lower_triangle(5)
 
